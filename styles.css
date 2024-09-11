@@ -64,7 +64,22 @@ main{
     background-color: black;
     color: white;
     font-size: 32px;
+    border-color: rgb(169, 68, 84);
 }
+.button {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none; /* Remove o sublinhado do link */
+    font-size: 16px; /* Ajusta o tamanho da fonte */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+
 .social{
     width: 80%;
     display: flex;
